@@ -10,8 +10,15 @@ import UIKit
 
 class GesturesTabController: UITabBarController {
     
-    private var tapGestureVC = TapGestureController()
-    private var swipeGestureVC = SwipeGestureController()
+    private lazy var tapGestureVC: TapGestureController = {
+        let storyboard = UIStoryboard(name: "TapGesture", bundle: nil)
+        guard let vc = storyboard.instantiateViewController(identifier: "TapGestureController") as? TapGestureController else {
+            fatalError()
+        }
+        return vc
+    }()
+    
+    private lazy var swipeGestureVC = SwipeGestureController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
