@@ -26,12 +26,14 @@ class TapGestureController: UIViewController {
         view.backgroundColor = .systemBackground
         
     // 2) add tap gesture to image view
+        heartImage.isUserInteractionEnabled = true
         heartImage.addGestureRecognizer(tapGesture)
     }
     
     // 3) selector(method) needed that gets called when the gesture is triggered
     @objc
     private func didTap(gesture: UITapGestureRecognizer) {
-        // code here 
+        // code here
+        heartImage.image = UIImage(systemName: "heart.fill")
     }
 }
