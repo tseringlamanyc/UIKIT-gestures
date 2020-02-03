@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TapGestureController.swift
 //  UIKIT-gestures
 //
 //  Created by Tsering Lama on 2/3/20.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TapGestureController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemRed
     }
-
-
 }
-

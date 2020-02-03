@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		52240D7A23E8935D008A3147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52240D7923E8935D008A3147 /* AppDelegate.swift */; };
 		52240D7C23E8935D008A3147 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52240D7B23E8935D008A3147 /* SceneDelegate.swift */; };
-		52240D7E23E8935D008A3147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52240D7D23E8935D008A3147 /* ViewController.swift */; };
-		52240D8123E8935D008A3147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52240D7F23E8935D008A3147 /* Main.storyboard */; };
 		52240D8323E8935F008A3147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52240D8223E8935F008A3147 /* Assets.xcassets */; };
 		52240D8623E8935F008A3147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52240D8423E8935F008A3147 /* LaunchScreen.storyboard */; };
+		52240D8E23E8942C008A3147 /* GesturesTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52240D8D23E8942C008A3147 /* GesturesTabController.swift */; };
+		52240D9023E8947B008A3147 /* TapGestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52240D8F23E8947B008A3147 /* TapGestureController.swift */; };
+		52240D9223E8949B008A3147 /* TapGesture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52240D9123E8949B008A3147 /* TapGesture.storyboard */; };
+		52240D9423E894BD008A3147 /* SwipeGestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52240D9323E894BD008A3147 /* SwipeGestureController.swift */; };
+		52240D9623E894D1008A3147 /* SwipeGesture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52240D9523E894D1008A3147 /* SwipeGesture.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52240D7623E8935D008A3147 /* UIKIT-gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKIT-gestures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52240D7923E8935D008A3147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52240D7B23E8935D008A3147 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52240D7D23E8935D008A3147 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52240D8023E8935D008A3147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52240D8223E8935F008A3147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52240D8523E8935F008A3147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52240D8723E8935F008A3147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52240D8D23E8942C008A3147 /* GesturesTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesTabController.swift; sourceTree = "<group>"; };
+		52240D8F23E8947B008A3147 /* TapGestureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureController.swift; sourceTree = "<group>"; };
+		52240D9123E8949B008A3147 /* TapGesture.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TapGesture.storyboard; sourceTree = "<group>"; };
+		52240D9323E894BD008A3147 /* SwipeGestureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureController.swift; sourceTree = "<group>"; };
+		52240D9523E894D1008A3147 /* SwipeGesture.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SwipeGesture.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				52240D7923E8935D008A3147 /* AppDelegate.swift */,
 				52240D7B23E8935D008A3147 /* SceneDelegate.swift */,
-				52240D7D23E8935D008A3147 /* ViewController.swift */,
-				52240D7F23E8935D008A3147 /* Main.storyboard */,
+				52240D8D23E8942C008A3147 /* GesturesTabController.swift */,
+				52240D9323E894BD008A3147 /* SwipeGestureController.swift */,
+				52240D9523E894D1008A3147 /* SwipeGesture.storyboard */,
+				52240D8F23E8947B008A3147 /* TapGestureController.swift */,
+				52240D9123E8949B008A3147 /* TapGesture.storyboard */,
 				52240D8223E8935F008A3147 /* Assets.xcassets */,
 				52240D8423E8935F008A3147 /* LaunchScreen.storyboard */,
 				52240D8723E8935F008A3147 /* Info.plist */,
@@ -125,9 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52240D9223E8949B008A3147 /* TapGesture.storyboard in Resources */,
+				52240D9623E894D1008A3147 /* SwipeGesture.storyboard in Resources */,
 				52240D8623E8935F008A3147 /* LaunchScreen.storyboard in Resources */,
 				52240D8323E8935F008A3147 /* Assets.xcassets in Resources */,
-				52240D8123E8935D008A3147 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52240D7E23E8935D008A3147 /* ViewController.swift in Sources */,
+				52240D8E23E8942C008A3147 /* GesturesTabController.swift in Sources */,
+				52240D9023E8947B008A3147 /* TapGestureController.swift in Sources */,
+				52240D9423E894BD008A3147 /* SwipeGestureController.swift in Sources */,
 				52240D7A23E8935D008A3147 /* AppDelegate.swift in Sources */,
 				52240D7C23E8935D008A3147 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +159,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		52240D7F23E8935D008A3147 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52240D8023E8935D008A3147 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52240D8423E8935F008A3147 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
